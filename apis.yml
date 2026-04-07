@@ -1,14 +1,11 @@
 name: Data Warehouse Schemas
-description: Organizational patterns for structuring data in warehouses, including
-  star schema, snowflake schema, and galaxy schema designs that optimize query performance
-  and data relationships. Organizations use it to track key metrics, identify trends,
-  and optimize business outcomes.
+description: Organizational patterns for structuring data in warehouses, including star schema, snowflake schema, and galaxy schema designs that optimize query performance and data relationships. Organizations use it to track key metrics, identify trends, and optimize business outcomes.
 url: https://en.wikipedia.org/wiki/Data_warehouse#Schemas
 tags:
-- Data Warehousing
-- Database Design
-- Business Intelligence
-- Analytics
+  - Analytics
+  - Business Intelligence
+  - Data Warehousing
+  - Database Design
 created: '2025-01-01'
 modified: '2026-03-16'
 apis: []
