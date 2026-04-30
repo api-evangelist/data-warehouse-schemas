@@ -1,0 +1,81 @@
+name: Data Warehouse Schemas Vocabulary
+description: >-
+  Vocabulary of data warehouse schema patterns and dimensional modeling
+  concepts spanning Kimball, Inmon, Data Vault, and modern lakehouse
+  approaches.
+terms:
+  - term: Fact Table
+    definition: >-
+      A central table in a dimensional model that records measurements
+      of business events at a specific grain.
+  - term: Dimension Table
+    definition: >-
+      A table that holds descriptive context such as customer, product,
+      time, or location used to slice fact measurements.
+  - term: Star Schema
+    definition: >-
+      A dimensional schema with a central fact table joined to
+      denormalized dimension tables.
+  - term: Snowflake Schema
+    definition: >-
+      A dimensional schema where dimensions are normalized into multiple
+      related tables forming hierarchies.
+  - term: Galaxy Schema
+    definition: >-
+      Also called a fact constellation, a schema with multiple fact
+      tables sharing conformed dimensions.
+  - term: Conformed Dimension
+    definition: >-
+      A dimension shared across multiple fact tables with identical
+      keys and meaning.
+  - term: Slowly Changing Dimension
+    definition: >-
+      A dimension whose values change over time, handled with patterns
+      like Type 1, Type 2, and Type 3.
+  - term: Surrogate Key
+    definition: >-
+      A system-generated key used to identify rows in dimensions
+      independently of natural business keys.
+  - term: Grain
+    definition: >-
+      The level of detail represented by each row in a fact table.
+  - term: Additive Fact
+    definition: >-
+      A measurement that can be summed across all dimensions.
+  - term: Semi-Additive Fact
+    definition: >-
+      A measurement that can be summed across some but not all
+      dimensions, such as account balances over time.
+  - term: Non-Additive Fact
+    definition: >-
+      A measurement that cannot be meaningfully summed, such as ratios
+      or percentages.
+  - term: Bridge Table
+    definition: >-
+      A table that resolves many-to-many relationships between facts
+      and dimensions.
+  - term: Factless Fact Table
+    definition: >-
+      A fact table that records the occurrence of an event without
+      numeric measures.
+  - term: Data Vault
+    definition: >-
+      A modeling approach using hubs, links, and satellites to capture
+      raw historical data with auditability.
+  - term: Hub
+    definition: >-
+      A Data Vault entity that holds business keys and metadata.
+  - term: Link
+    definition: >-
+      A Data Vault entity that records associations between hubs.
+  - term: Satellite
+    definition: >-
+      A Data Vault entity that stores descriptive attributes and history.
+  - term: Lakehouse
+    definition: >-
+      An architecture that combines data lake storage with warehouse
+      semantics using table formats like Delta, Iceberg, or Hudi.
+  - term: Medallion Architecture
+    definition: >-
+      A layered lakehouse pattern of bronze (raw), silver (cleansed),
+      and gold (curated) tables.
