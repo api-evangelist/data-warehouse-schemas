@@ -7,8 +7,7 @@ description: >-
   dimensional modeling methodology, the Inmon Corporate Information
   Factory, Data Vault 2.0, and modern lakehouse table formats like
   Delta Lake, Apache Iceberg, and Apache Hudi.
-type: Topic
-xType: topic
+kind: topic
 position: Consumer
 access: 3rd-Party
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
