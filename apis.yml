@@ -55,19 +55,19 @@ common:
     description: Bill Inmon's foundational text on the Corporate Information Factory.
   - url: https://delta.io/
     name: Delta Lake
-    type: Tool
+    type: Tools
     description: ACID table format for lakehouse architectures.
   - url: https://iceberg.apache.org/
     name: Apache Iceberg
-    type: Tool
+    type: Tools
     description: Open table format for huge analytic datasets.
   - url: https://hudi.apache.org/
     name: Apache Hudi
-    type: Tool
+    type: Tools
     description: Streaming-first lakehouse table format.
   - url: https://docs.getdbt.com/
     name: dbt
-    type: Tool
+    type: Tools
     description: Tool for building dimensional models in cloud warehouses with SQL.
   - url: https://www.snowflake.com/
     name: Snowflake
