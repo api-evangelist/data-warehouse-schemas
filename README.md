@@ -1,4 +1,4 @@
-# Data Warehouse Schemas (data-warehouse-schemas)
+# data-warehouse-schemas
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,61 +64,22 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Data Warehouse Schemas is the landscape of analytical schema patterns used to organize fact and dimension data for business intelligence and reporting. It spans star, snowflake, and galaxy schemas, the Kimball dimensional modeling methodology, the Inmon Corporate Information Factory, Data Vault 2.0, and modern lakehouse table formats like Delta Lake, Apache Iceberg, and Apache Hudi.
+## data-warehouse-schemas on APIs.io
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/data-warehouse-schemas/refs/heads/main/apis.yml)
+Everything profiled for data-warehouse-schemas is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/data-warehouse-schemas/](https://apis.io/providers/data-warehouse-schemas/)** — or go straight to one of the APIs or properties below.
 
-## Scope
+## API Evangelist rating
 
-- **Type:** Topic
-- **Position:** Consumer
-- **Access:** 3rd-Party
+Not yet rated. See [apis.io/providers/data-warehouse-schemas/](https://apis.io/providers/data-warehouse-schemas/).
 
-## Tags
+## How this profile is made
 
-- Analytics
-- Business Intelligence
-- Data Warehouse Schemas
-- Data Warehousing
-- Database Design
-- Dimensional Modeling
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-## Timestamps
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for data-warehouse-schemas: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-- **Created:** 2025-01-01
-- **Modified:** 2026-04-30
+## Open an issue
 
-## Common Resources
-
-### Patterns & Methodologies
-
-- [Wikipedia](https://en.wikipedia.org/wiki/Data_warehouse#Schemas)
-- [Kimball Dimensional Modeling](https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/)
-- [Star Schema](https://en.wikipedia.org/wiki/Star_schema)
-- [Snowflake Schema](https://en.wikipedia.org/wiki/Snowflake_schema)
-- [Galaxy / Fact Constellation](https://en.wikipedia.org/wiki/Fact_constellation)
-- [Data Vault Alliance](https://datavaultalliance.com/)
-- [Building the Data Warehouse (Inmon)](https://www.amazon.com/dp/0470174420)
-
-### Lakehouse Table Formats
-
-- [Delta Lake](https://delta.io/)
-- [Apache Iceberg](https://iceberg.apache.org/)
-- [Apache Hudi](https://hudi.apache.org/)
-
-### Tools & Platforms
-
-- [dbt](https://docs.getdbt.com/)
-- [Snowflake](https://www.snowflake.com/)
-- [Google BigQuery](https://cloud.google.com/bigquery)
-- [Databricks Lakehouse](https://www.databricks.com/)
-
-### Reference
-
-- [Vocabulary](vocabulary/data-warehouse-schemas-vocabulary.yml)
-
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/data-warehouse-schemas/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
